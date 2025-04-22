@@ -52,7 +52,7 @@ export default async function PostPage({ params }) {
         style={{display: "block"}}
         data-ad-client="ca-pub-5641491107630454"
         data-ad-slot="1206633556"
-        data-page-url="https://www.nablepart.com"
+        data-page-url="https://nablepart.com"
         data-override-format="true"
         data-ad-format="auto"
         data-full-width-responsive="true"
@@ -121,7 +121,7 @@ export default async function PostPage({ params }) {
         style={{display: "block"}}
         data-ad-client="ca-pub-5641491107630454"
         data-ad-slot="5702084207"
-        data-page-url="https://www.nablepart.com"
+        data-page-url="https://nablepart.com"
         data-override-format="true"
         data-ad-format="auto"
         data-full-width-responsive="true"
