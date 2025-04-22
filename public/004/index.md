@@ -1,7 +1,7 @@
 ---
 title: "OmniParser V2: Screen Parsing tool for Pure Vision Based GUI Agent | Vibe Weekly Vol.004"
 date: 2025-04-14
-description: ""
+description: "This page focuses on global technology trends, carefully selecting content on a weekly basis. It covers a variety of development tools and open-source projects. It particularly introduces OmniParser, a screen - parsing tool developed by Microsoft Research, elaborating on its information, functions, technical principles, and application scenarios. It also lists development tools such as the A2A protocol, mentions AI trends, including progress in large-scale models, hardware, and other aspects, as well as the features and core content of jotai, a React state-management tool."
 keywords: ["Vibe Weekly", "OmniParser", "Microsoft"]
 cover: "/004/omniParser.png"
 ---
@@ -43,6 +43,13 @@ OmniParser（[ˈɑːmniˌpɑːrsər]） is a screen - parsing tool developed by 
 > Curated Dev Tools & Open-Source Gems
 
 ### 1、A2A - Agentic Communication  Protocol
+
+The A2A (Agent - to - Agent) protocol is an open - standard protocol led by Google. It aims to address the interoperability issue among different AI agents, enabling them to collaborate across platforms and frameworks. Here is a detailed feature introduction:
+
+- **Capability Discovery**: AI agents can present their capabilities through standardized "agent cards", which include metadata about the agent's skills, endpoint URLs, and authentication requirements. This makes it easier for other agents to find the right partner for any task.
+- **Task Management**: The protocol defines the complete lifecycle of a "task" object, supporting both short-term and long-term tasks, and can synchronize progress and status updates in real time. It ensures that agents interact efficiently, securely, and with a clear purpose.
+- **Multimodal Communication**: It supports various forms such as text, audio, and video streams, and determines the content format through a user - experience negotiation mechanism to provide a seamless experience for users.
+- **Security and Scalability**: Built on existing standards such as HTTP, SSE, and JSON - RPC, it integrates enterprise-level authentication and authorization mechanisms to ensure data security.
 
 ### 2、Shadcn Templates - A free directory of shadcn/ui templates & components.
 
