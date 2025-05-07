@@ -48,8 +48,8 @@ export default async function PostPage({ params }) {
         })}
       </p>
       {/* weekly_post_top */}
-      <ins class="adsbygoogle"
-        style="display:block"
+      <ins className="adsbygoogle"
+        style={{display: "block"}}
         data-ad-client="ca-pub-5641491107630454"
         data-ad-slot="5450356935"
         data-ad-format="auto"
@@ -115,8 +115,8 @@ export default async function PostPage({ params }) {
         </Script>
       </div>
       {/* weekly_post_bottom */}
-      <ins class="adsbygoogle"
-        style="display:block"
+      <ins className="adsbygoogle"
+        style={{display: "block"}}
         data-ad-client="ca-pub-5641491107630454"
         data-ad-slot="3700267359"
         data-ad-format="auto"

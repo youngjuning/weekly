@@ -48,8 +48,8 @@ export default async function Home() {
   return (
     <div className="relative -top-[10px] flex flex-col gap-8">
       {/* weekly_index */}
-      <ins class="adsbygoogle"
-        style="display:block"
+      <ins className="adsbygoogle"
+        style={{display: "block"}}
         data-ad-client="ca-pub-5641491107630454"
         data-ad-slot="4263906968"
         data-ad-format="auto"
