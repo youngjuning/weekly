@@ -109,7 +109,7 @@ export default async function PostPage({ params }) {
           data-theme="preferred_color_scheme"
           data-lang="en"
           data-loading="lazy"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           async
         >
         </Script>
