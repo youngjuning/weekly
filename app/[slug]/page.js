@@ -47,16 +47,14 @@ export default async function PostPage({ params }) {
           year: "numeric",
         })}
       </p>
-      <ins
-        className="adsbygoogle"
+      {/* weekly_post_top */}
+      <ins className="adsbygoogle"
         style={{display: "block"}}
         data-ad-client="ca-pub-5641491107630454"
-        data-ad-slot="1645676004"
-        data-page-url="https://www.nablepart.com"
-        data-override-format="true"
+        data-ad-slot="5450356935"
         data-ad-format="auto"
-        data-full-width-responsive="true"
-      /><Script>
+        data-full-width-responsive="true"></ins>
+      <Script>
         {`
           (adsbygoogle = window.adsbygoogle || []).push({});
         `}
@@ -111,21 +109,19 @@ export default async function PostPage({ params }) {
           data-theme="preferred_color_scheme"
           data-lang="en"
           data-loading="lazy"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           async
         >
         </Script>
       </div>
-      <ins
-        className="adsbygoogle"
+      {/* weekly_post_bottom */}
+      <ins className="adsbygoogle"
         style={{display: "block"}}
         data-ad-client="ca-pub-5641491107630454"
-        data-ad-slot="5702084207"
-        data-page-url="https://www.nablepart.com"
-        data-override-format="true"
+        data-ad-slot="3700267359"
         data-ad-format="auto"
-        data-full-width-responsive="true"
-      /><Script>
+        data-full-width-responsive="true"></ins>
+      <Script>
         {`
           (adsbygoogle = window.adsbygoogle || []).push({});
         `}

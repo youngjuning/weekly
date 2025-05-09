@@ -3,6 +3,7 @@ import matter from "gray-matter";
 import Color from "colorjs.io";
 import Link from "./Link";
 import { sans } from "./fonts";
+import Script from "next/script";
 
 export const metadata = {
   title: "Vibe Weekly — Tech Weekly by Aaron Young.",
@@ -46,6 +47,18 @@ export default async function Home() {
   const posts = await getPosts();
   return (
     <div className="relative -top-[10px] flex flex-col gap-8">
+      {/* weekly_index */}
+      <ins className="adsbygoogle"
+        style={{display: "block"}}
+        data-ad-client="ca-pub-5641491107630454"
+        data-ad-slot="4263906968"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <Script>
+        {`
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        `}
+      </Script>
       {posts.map((post, index) => (
         <div key={post.slug}>
           <Link
