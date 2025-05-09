@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={serif.className}>
       <head>
         <meta name="google-site-verification" content="puNbCakpNRksL6MU0jb5G4IlHfPIr9KoUcnSnOklRz8" />
+        <meta name="algolia-site-verification"  content="7D912E2945E11F06" />
         <Script strategy="afterInteractive" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></Script>
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-L0YQ2HEGZJ"></Script>
         <Script>{`
